@@ -29,17 +29,46 @@ By using our own features internally before releasing them publicly to testnet o
 
 ## Repositories we own
 
-| Repository | Description |
-|------------|-------------|
-| [near-sdk-rs](https://github.com/near/near-sdk-rs) | NEAR smart contract SDK for Rust |
-| [cargo-near](https://github.com/near/cargo-near) | Cargo extension for building `near-sdk-rs` smart contracts and ABI schemas on NEAR |
-| [near-plugins](https://github.com/Near-One/near-plugins) | NEAR smart contract plugins |
-| [near-jsonrpc-client-rs](https://github.com/near/near-jsonrpc-client-rs) | Low-level client for interfacing with the NEAR Protocol via JSON-RPC |
-| [bridge-sdk-js](https://github.com/Near-One/bridge-sdk-js) | TypeScript SDK for cross-chain token transfers using the Omni Bridge protocol |
-| [near-cli-rs](https://github.com/near/near-cli-rs) | CLI tool for interacting with the NEAR blockchain |
-| [near-api-rs](https://github.com/near/near-api-rs) | Rust-based API client library for interacting with the NEAR blockchain |
-| [near-sandbox-js](https://github.com/near/near-sandbox-js) | JavaScript wrapper for the `neard` binary compiled with the `sandbox` feature flag |
-| [near-sandbox-rs](https://github.com/near/near-sandbox-rs) | Rust wrapper for the `neard` binary compiled with the `sandbox` feature flag |
+### Core SDKs & APIs
+
+| Repository | Description | Status |
+|------------|-------------|--------|
+| [near-sdk-rs](https://github.com/near/near-sdk-rs) | NEAR smart contract SDK for Rust | Active |
+| [near-api-rs](https://github.com/near/near-api-rs) | Rust-based API client library for interacting with the NEAR blockchain | Evolving |
+| [near-jsonrpc-client-rs](https://github.com/near/near-jsonrpc-client-rs) | Low-level client for interfacing with the NEAR Protocol via JSON-RPC | Migration |
+
+### CLI Tools
+
+| Repository | Description | Status |
+|------------|-------------|--------|
+| [near-cli-rs](https://github.com/near/near-cli-rs) | CLI tool for interacting with the NEAR blockchain | Stable |
+| [cargo-near](https://github.com/near/cargo-near) | Cargo extension for building `near-sdk-rs` smart contracts and ABI schemas on NEAR | Stable |
+| [cargo-near-new-project-template](https://github.com/near/cargo-near-new-project-template) | Template for new cargo-near projects | Stable |
+| [near-validators-cli-rs](https://github.com/near-cli-rs/near-validators-cli-rs) | CLI extension for validator operations | Stable |
+
+### Sandbox & Testing
+
+| Repository | Description | Status |
+|------------|-------------|--------|
+| [near-sandbox-rs](https://github.com/near/near-sandbox-rs) | Rust wrapper for the `neard` binary compiled with the `sandbox` feature flag | Stable |
+| [near-sandbox-js](https://github.com/near/near-sandbox-js) | JavaScript wrapper for the `neard` binary compiled with the `sandbox` feature flag | Stable |
+| [near-workspaces-rs](https://github.com/near/near-workspaces-rs) | Rust testing framework for NEAR smart contracts | Deprecating |
+
+### Primitives & Types
+
+| Repository | Description | Status |
+|------------|-------------|--------|
+| [near-account-id-rs](https://github.com/near/near-account-id-rs) | NEAR account ID type and validation | Stable |
+| [near-gas-rs](https://github.com/near/near-gas-rs) | NEAR gas type | Stable |
+| [near-sdk-abi](https://github.com/near/near-sdk-abi) | ABI schema types for NEAR smart contracts | Frozen |
+| [borsh-rs](https://github.com/near/borsh-rs) | Binary Object Representation Serializer for Hashing | Stable |
+
+### Other
+
+| Repository | Description | Status |
+|------------|-------------|--------|
+| [near-plugins](https://github.com/Near-One/near-plugins) | NEAR smart contract plugins | Stable |
+| [bridge-sdk-js](https://github.com/Near-One/bridge-sdk-js) | TypeScript SDK for cross-chain token transfers using the Omni Bridge protocol | Stable |
 
 *Ownership implies responsibility for usability, maintenance, and coordinated releases - not sole authorship.*
 
