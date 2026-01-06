@@ -13,21 +13,21 @@
 
 </div>
 
-## What is DevEx?
+## What is the DevEx team?
 
 The Developer Experience (DevEx) team bridges the gap between building powerful capabilities on NEAR and making those capabilities usable for developers.
 
 This repository serves as a public-facing tracking hub for DevEx initiatives, issues, and milestones.
 
-## Why DevEx?
+## Why does the DevEx team exist?
 
 - **SDKs lag behind protocol releases** – new nearcore capabilities become usable days or weeks after they ship, slowing adoption.
-- **Release engineering is manual** – version bumping, binary distribution, and downstream testing are error‑prone and lack a clear SLA.
+- **Release engineering is manual** – version bumping, binary distribution, and downstream testing are error-prone and lack a clear SLA.
 - **Local testing tools lack key features** – no snapshot/revert capabilities, inefficient `patch_state`, and other gaps compared to other blockchains make local testing painful.
 
-By using our own tools internally before releasing them to public, we see problems early, fix them quickly, and keep ecosystem in sync with the protocol.
+By using our own features internally before releasing them publicly to testnet or mainnet, we see problems early, fix them quickly, and keep the ecosystem in sync with the protocol.
 
-## Repositories we maintain
+## Repositories we own
 
 | Repository | Description |
 |------------|-------------|
@@ -43,12 +43,7 @@ By using our own tools internally before releasing them to public, we see proble
 
 *Ownership implies responsibility for usability, maintenance, and coordinated releases - not sole authorship.*
 
-## Internal GitHub links
-
-- **GitHub project (internal)** – [View open issues & milestones](https://github.com/orgs/near/projects/192)
-- **DevEx tracking repository** – <https://github.com/near/devex>
-
 ## Getting in touch
 
-- **Zulip (technical discussion)** - ask your questions here: https://near.zulipchat.com/
-- **Discourse (non-technical / direction)** - propose ideas, share feedback: https://gov.near.org
+- **Zulip (technical discussion)** - Ask your questions here: https://near.zulipchat.com/
+- **Discourse (non-technical / direction)** - Propose ideas, share feedback: https://gov.near.org
